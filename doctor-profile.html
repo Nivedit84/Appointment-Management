@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Hospital - Doctor Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header-patient">
+        <h1>Healthcare Hospital</h1>
+
+        <nav class="navigation">
+            <a href="patient-dashboard.html">Home</a>
+            <a href="doctors.html">Find a Doctor</a>
+            <a href="appointments.html">My Appointments</a>
+            <a href="profile.html">My Profile</a>
+            <a href="login.html">Logout</a>
+        </nav>
+    </header>
+
+
+    <main class="dashboard-container">
+
+        <section class="card doctor-profile">
+            <h2>Doctor Profile</h2>
+
+            <h3>Dr. Rahul Sharma</h3>
+
+            <p>Specialty: Cardiology</p>
+            <p>Experience: 12 years</p>
+            <p>Hospital: Healthcare Hospital</p>
+            <p>Consultation Fee: ₹800</p>
+        </section>
+
+
+        <section class="card about-doctor">
+            <h2>About the Doctor</h2>
+
+            <p>
+                Dr. Rahul Sharma is a cardiologist specializing
+                in cardiovascular care and preventive cardiology.
+            </p>
+        </section>
+
+
+        <section class="card available-appointments">
+
+            <h2>Available Appointments</h2>
+
+            <p>Select a date to see available time slots.</p>
+
+            <label for="appointment-date">Date:</label>
+            <input
+                type="date"
+                id="appointment-date"
+                name="appointment-date"
+            >
+
+            <h3>Available Time Slots</h3>
+
+            <div class="time-slots">
+                <a href="booking.html" class="btn btn-primary">10:00 AM</a>
+                <a href="booking.html" class="btn btn-primary">10:30 AM</a>
+                <a href="booking.html" class="btn btn-primary">11:00 AM</a>
+                <a href="booking.html" class="btn btn-primary">11:30 AM</a>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>&copy; 2026 Healthcare Hospital. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Hospital - Book Appointment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header-patient">
+        <h1>Healthcare Hospital</h1>
+
+        <nav class="navigation">
+            <a href="patient-dashboard.html">Home</a>
+            <a href="doctors.html">Find a Doctor</a>
+            <a href="appointments.html">My Appointments</a>
+            <a href="profile.html">My Profile</a>
+            <a href="login.html">Logout</a>
+        </nav>
+    </header>
+
+
+    <main class="dashboard-container">
+
+        <section class="card appointment-details">
+            <h2>Appointment Details</h2>
+
+            <p>Doctor: Dr. Rahul Sharma</p>
+            <p>Specialty: Cardiology</p>
+            <p>Date: 28 September 2026</p>
+            <p>Time: 10:30 AM</p>
+            <p>Consultation Fee: ₹800</p>
+        </section>
+
+
+        <section class="card patient-details">
+
+            <h2>Patient Details</h2>
+
+            <form action="confirmation.html" method="get">
+
+                <label for="full-name">Full Name:</label>
+                <input
+                    type="text"
+                    id="full-name"
+                    name="full-name"
+                    required
+                >
+
+
+                <label for="dob">Date of Birth:</label>
+                <input
+                    type="date"
+                    id="dob"
+                    name="dob"
+                    required
+                >
+
+
+                <p>Gender:</p>
+
+                <input
+                    type="radio"
+                    id="male"
+                    name="gender"
+                    value="male"
+                    required
+                >
+                <label for="male">Male</label>
+
+                <input
+                    type="radio"
+                    id="female"
+                    name="gender"
+                    value="female"
+                >
+                <label for="female">Female</label>
+
+                <input
+                    type="radio"
+                    id="other"
+                    name="gender"
+                    value="other"
+                >
+                <label for="other">Other</label>
+
+            
+
+
+                <label for="phone">Phone Number:</label>
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    required
+                >
+              
+
+
+                <label for="email">Email:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                >
+                
+
+
+                <label for="reason">Reason for Visit:</label>
+                
+                <textarea
+                    id="reason"
+                    name="reason"
+                    rows="4"
+                    required
+                ></textarea>
+
+             
+
+               <button type="submit" class="btn btn-primary">
+                    Confirm Appointment
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>&copy; 2026 Healthcare Hospital. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
